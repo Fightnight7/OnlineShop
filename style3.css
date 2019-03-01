@@ -1,0 +1,96 @@
+*{
+    font-family: verdana, sans-serif;
+    float: left;
+    position: relative;
+/*   border: 1px solid;*/
+}
+
+div {
+    margin: 5px;
+    height: 645px;
+    overflow: hidden;
+}
+
+.picture {
+    width: 113px;
+    height: 333px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    max-width: 310px;    
+}
+
+a {
+    max-width: 310px;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.pic {
+    width: 310px;
+}
+
+.description {
+    width: 310px;
+    margin-top: 5px;
+}
+
+.description:hover{
+    color: brown;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+
+p {
+    margin: 0px;
+}
+
+img:hover{
+    zoom: 110%;
+}
+
+.fridge {
+    max-width: 310px;
+    width: 310px;
+}
+
+.info {
+    max-width: 310px;
+    width: 310px;
+}
+
+.category {
+    font-size: 12px;
+    width: 310px;
+    margin-top: 6px;
+    padding: 0px;
+    max-width: 310px;
+}
+
+.priceOld {
+    color: #8692a5;
+    text-decoration: line-through red;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 310px;
+}
+
+.priceNew {
+    color: #d82b2b;
+    font-weight: bold;
+    background-color: #f9e37f;
+    font-size: 18px;
+    margin-top: 2px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.checked {
+  color: orange;
+}
+
